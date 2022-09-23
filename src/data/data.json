@@ -1,0 +1,66 @@
+{
+  "employees": [
+    {
+      "name": "Logan Henderson",
+      "email": "logan@company.com",
+      "lastDay": "September 22,2022",
+      "department": "Accounting",
+      "status": "Active",
+      "id": 1
+    },
+    {
+      "name": "Susie Carlson",
+      "email": "susie@company.com",
+      "lastDay": "September 22,2019",
+      "department": "Development",
+      "status": "Inactive",
+      "id": 2
+    },
+    {
+      "name": "Markus Benes",
+      "email": "markus@company.com",
+      "lastDay": "September 23,2022",
+      "department": "Development",
+      "status": "Active",
+      "id": 3
+    },
+    {
+      "name": "Marie Stephens",
+      "email": "marie@company.com",
+      "lastDay": "September 20,2019",
+      "department": "Human Resources",
+      "status": "Active",
+      "id": 4
+    },
+    {
+      "name": "Jacob Gibson",
+      "email": "jacob@company.com",
+      "lastDay": "September 22,2021",
+      "department": "Sales",
+      "status": "Active",
+      "id": 5
+    }
+  ],
+  "trends": [
+    {
+      "type": "DUNNO",
+      "value": 235,
+      "color": "#E289F2"
+    },
+    {
+      "type": "I'm Bored",
+      "value": 165,
+      "color": "#855CF8"
+    },
+    {
+      "type": "Money",
+      "value": 90,
+      "color": "#ACB9FF"
+    },
+    {
+      "type": "Fun",
+      "value": 45,
+      "color": "#000065"
+    }
+  ]
+}

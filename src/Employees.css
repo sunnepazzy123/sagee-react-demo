@@ -1,0 +1,32 @@
+.employees-card {
+  max-height: 450px;
+  min-width: 900px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 10px;
+  box-shadow: 3px 4px 5px -5px;
+}
+
+.employees-card h2 {
+  color: #4a5568;
+  font-size: 25px;
+}
+
+.table-responsive {
+  height: 360px;
+  border-radius: 5px;
+}
+
+.table-head {
+  padding: 10px 30px !important;
+}
+
+.person {
+  display: flex;
+  padding: 25px 20px;
+  line-height: 3px;
+  gap: 5px;
+  align-items: center;
+}
+

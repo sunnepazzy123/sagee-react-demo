@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Ms+Madi&family=Pacifico&display=swap");
+
+.navbar {
+  margin-top: 35px;
+  margin-inline: 30px;
+  height: 63px;
+  min-width: 1440px;
+  border-radius: 5px;
+  background-color: #1e1add;
+  padding-inline: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar h1 {
+  color: #fff;
+  font-size: 35px;
+  font-family: "Pacifico";
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar img {
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  border-radius: 50px;
+  border: 1.5px solid #fff;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.navbar .dropdown-link:nth-child(3) {
+  color: red !important;
+}
+
+.navbar #one {
+  color: #4a5568;
+  display: flex;
+  gap: 5px;
+}
+
+.navbar #two {
+  color: #a0aec0;
+}
+
+.navbar #three {
+  color: #e53e3e;
+  display: flex;
+  gap: 5px;
+}
