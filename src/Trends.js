@@ -3,6 +3,7 @@ import "./Trends.css";
 import PieChart from "react-pie-graph-chart";
 
 const Trends = ({ trends }) => {
+  console.log('trend', trends)
   return (
     <div className="trends-card">
       <h3>Why do you create startup ?</h3>

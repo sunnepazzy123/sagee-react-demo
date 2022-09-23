@@ -7,8 +7,8 @@ import axios from "axios";
 const host = "https://json-server-runner.herokuapp.com";
 
 const App = () => {
-  const [employees, setEmployees] = useState([]);
-  const [trends, setTrends] = useState([]);
+  const [employees, setEmployees] = useState();
+  const [trends, setTrends] = useState();
 
   useEffect(()=> {
 
@@ -17,10 +17,10 @@ const App = () => {
   }, []);
 
   const dataSource = async () => {
-    const { data: employeeList } = await axios.get(`${host}/employees`);
     const { data: trendList } = await axios.get(`${host}/trends`);
-    setEmployees(employeeList);
+    const { data: employeeList } = await axios.get(`${host}/employees`);
     setTrends(trendList);
+    setEmployees(employeeList);
   }
 
   return (
